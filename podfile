@@ -1,0 +1,9 @@
+
+
+target 'GMRNetworkDemo' do
+
+pod 'AFNetworking'
+pod 'MBProgressHUD'
+
+ 
+end

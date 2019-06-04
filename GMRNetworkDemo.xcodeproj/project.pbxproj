@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181BB78622A0B04D00C3549E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181BB78522A0B04D00C3549E /* AppDelegate.m */; };
+		181BB78922A0B04D00C3549E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181BB78822A0B04D00C3549E /* ViewController.m */; };
+		181BB78C22A0B04D00C3549E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181BB78A22A0B04D00C3549E /* Main.storyboard */; };
+		181BB78E22A0B04F00C3549E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181BB78D22A0B04F00C3549E /* Assets.xcassets */; };
+		181BB79122A0B04F00C3549E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181BB78F22A0B04F00C3549E /* LaunchScreen.storyboard */; };
+		181BB79422A0B04F00C3549E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181BB79322A0B04F00C3549E /* main.m */; };
+		181BB79E22A0B05000C3549E /* GMRNetworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181BB79D22A0B05000C3549E /* GMRNetworkDemoTests.m */; };
+		181BB7A922A0B05000C3549E /* GMRNetworkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181BB7A822A0B05000C3549E /* GMRNetworkDemoUITests.m */; };
+		1847341A22A0C61900283BB2 /* GMRNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847341922A0C61900283BB2 /* GMRNetworkManager.m */; };
+		1847341D22A3A2B800283BB2 /* GMRNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847341C22A3A2B800283BB2 /* GMRNetworkConfig.m */; };
+		1847342022A3A2C500283BB2 /* GMRRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847341F22A3A2C500283BB2 /* GMRRequestConfig.m */; };
+		1847342322A3B7AB00283BB2 /* GMRCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847342222A3B7AB00283BB2 /* GMRCacheManager.m */; };
+		855B1DA19228FF159A7EC59B /* libPods-GMRNetworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 125401D9B8CF72B245DE6386 /* libPods-GMRNetworkDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181BB79A22A0B04F00C3549E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181BB77922A0B04D00C3549E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181BB78022A0B04D00C3549E;
+			remoteInfo = GMRNetworkDemo;
+		};
+		181BB7A522A0B05000C3549E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181BB77922A0B04D00C3549E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181BB78022A0B04D00C3549E;
+			remoteInfo = GMRNetworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		125401D9B8CF72B245DE6386 /* libPods-GMRNetworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GMRNetworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181BB78122A0B04D00C3549E /* GMRNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMRNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181BB78422A0B04D00C3549E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181BB78522A0B04D00C3549E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181BB78722A0B04D00C3549E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181BB78822A0B04D00C3549E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181BB78B22A0B04D00C3549E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181BB78D22A0B04F00C3549E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181BB79022A0B04F00C3549E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181BB79222A0B04F00C3549E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181BB79322A0B04F00C3549E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181BB79922A0B04F00C3549E /* GMRNetworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMRNetworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181BB79D22A0B05000C3549E /* GMRNetworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMRNetworkDemoTests.m; sourceTree = "<group>"; };
+		181BB79F22A0B05000C3549E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181BB7A422A0B05000C3549E /* GMRNetworkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMRNetworkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181BB7A822A0B05000C3549E /* GMRNetworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMRNetworkDemoUITests.m; sourceTree = "<group>"; };
+		181BB7AA22A0B05000C3549E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1847341822A0C61900283BB2 /* GMRNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMRNetworkManager.h; sourceTree = "<group>"; };
+		1847341922A0C61900283BB2 /* GMRNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMRNetworkManager.m; sourceTree = "<group>"; };
+		1847341B22A3A2B800283BB2 /* GMRNetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMRNetworkConfig.h; sourceTree = "<group>"; };
+		1847341C22A3A2B800283BB2 /* GMRNetworkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMRNetworkConfig.m; sourceTree = "<group>"; };
+		1847341E22A3A2C500283BB2 /* GMRRequestConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMRRequestConfig.h; sourceTree = "<group>"; };
+		1847341F22A3A2C500283BB2 /* GMRRequestConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMRRequestConfig.m; sourceTree = "<group>"; };
+		1847342122A3B7AB00283BB2 /* GMRCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMRCacheManager.h; sourceTree = "<group>"; };
+		1847342222A3B7AB00283BB2 /* GMRCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMRCacheManager.m; sourceTree = "<group>"; };
+		223F41C38880C006DF112C91 /* Pods-GMRNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMRNetworkDemo.release.xcconfig"; path = "Target Support Files/Pods-GMRNetworkDemo/Pods-GMRNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A387D1D0BA0FB3B739F810D4 /* Pods-GMRNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMRNetworkDemo.debug.xcconfig"; path = "Target Support Files/Pods-GMRNetworkDemo/Pods-GMRNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181BB77E22A0B04D00C3549E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855B1DA19228FF159A7EC59B /* libPods-GMRNetworkDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BB79622A0B04F00C3549E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BB7A122A0B05000C3549E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181BB77822A0B04D00C3549E = {
+			isa = PBXGroup;
+			children = (
+				181BB78322A0B04D00C3549E /* GMRNetworkDemo */,
+				181BB79C22A0B05000C3549E /* GMRNetworkDemoTests */,
+				181BB7A722A0B05000C3549E /* GMRNetworkDemoUITests */,
+				181BB78222A0B04D00C3549E /* Products */,
+				D56A26343F348B4135D6A78D /* Pods */,
+				D110A0A696D21C2671A4A4C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		181BB78222A0B04D00C3549E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181BB78122A0B04D00C3549E /* GMRNetworkDemo.app */,
+				181BB79922A0B04F00C3549E /* GMRNetworkDemoTests.xctest */,
+				181BB7A422A0B05000C3549E /* GMRNetworkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181BB78322A0B04D00C3549E /* GMRNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				181BB7B622A0B13400C3549E /* Network */,
+				181BB78422A0B04D00C3549E /* AppDelegate.h */,
+				181BB78522A0B04D00C3549E /* AppDelegate.m */,
+				181BB78722A0B04D00C3549E /* ViewController.h */,
+				181BB78822A0B04D00C3549E /* ViewController.m */,
+				181BB78A22A0B04D00C3549E /* Main.storyboard */,
+				181BB78D22A0B04F00C3549E /* Assets.xcassets */,
+				181BB78F22A0B04F00C3549E /* LaunchScreen.storyboard */,
+				181BB79222A0B04F00C3549E /* Info.plist */,
+				181BB79322A0B04F00C3549E /* main.m */,
+			);
+			path = GMRNetworkDemo;
+			sourceTree = "<group>";
+		};
+		181BB79C22A0B05000C3549E /* GMRNetworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				181BB79D22A0B05000C3549E /* GMRNetworkDemoTests.m */,
+				181BB79F22A0B05000C3549E /* Info.plist */,
+			);
+			path = GMRNetworkDemoTests;
+			sourceTree = "<group>";
+		};
+		181BB7A722A0B05000C3549E /* GMRNetworkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181BB7A822A0B05000C3549E /* GMRNetworkDemoUITests.m */,
+				181BB7AA22A0B05000C3549E /* Info.plist */,
+			);
+			path = GMRNetworkDemoUITests;
+			sourceTree = "<group>";
+		};
+		181BB7B622A0B13400C3549E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1847341B22A3A2B800283BB2 /* GMRNetworkConfig.h */,
+				1847341C22A3A2B800283BB2 /* GMRNetworkConfig.m */,
+				1847341822A0C61900283BB2 /* GMRNetworkManager.h */,
+				1847341922A0C61900283BB2 /* GMRNetworkManager.m */,
+				1847341E22A3A2C500283BB2 /* GMRRequestConfig.h */,
+				1847341F22A3A2C500283BB2 /* GMRRequestConfig.m */,
+				1847342122A3B7AB00283BB2 /* GMRCacheManager.h */,
+				1847342222A3B7AB00283BB2 /* GMRCacheManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D110A0A696D21C2671A4A4C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				125401D9B8CF72B245DE6386 /* libPods-GMRNetworkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D56A26343F348B4135D6A78D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A387D1D0BA0FB3B739F810D4 /* Pods-GMRNetworkDemo.debug.xcconfig */,
+				223F41C38880C006DF112C91 /* Pods-GMRNetworkDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181BB78022A0B04D00C3549E /* GMRNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181BB7AD22A0B05000C3549E /* Build configuration list for PBXNativeTarget "GMRNetworkDemo" */;
+			buildPhases = (
+				8D5A0B3050028D3FB58FD855 /* [CP] Check Pods Manifest.lock */,
+				181BB77D22A0B04D00C3549E /* Sources */,
+				181BB77E22A0B04D00C3549E /* Frameworks */,
+				181BB77F22A0B04D00C3549E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMRNetworkDemo;
+			productName = GMRNetworkDemo;
+			productReference = 181BB78122A0B04D00C3549E /* GMRNetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181BB79822A0B04F00C3549E /* GMRNetworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181BB7B022A0B05000C3549E /* Build configuration list for PBXNativeTarget "GMRNetworkDemoTests" */;
+			buildPhases = (
+				181BB79522A0B04F00C3549E /* Sources */,
+				181BB79622A0B04F00C3549E /* Frameworks */,
+				181BB79722A0B04F00C3549E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181BB79B22A0B04F00C3549E /* PBXTargetDependency */,
+			);
+			name = GMRNetworkDemoTests;
+			productName = GMRNetworkDemoTests;
+			productReference = 181BB79922A0B04F00C3549E /* GMRNetworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181BB7A322A0B05000C3549E /* GMRNetworkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181BB7B322A0B05000C3549E /* Build configuration list for PBXNativeTarget "GMRNetworkDemoUITests" */;
+			buildPhases = (
+				181BB7A022A0B05000C3549E /* Sources */,
+				181BB7A122A0B05000C3549E /* Frameworks */,
+				181BB7A222A0B05000C3549E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181BB7A622A0B05000C3549E /* PBXTargetDependency */,
+			);
+			name = GMRNetworkDemoUITests;
+			productName = GMRNetworkDemoUITests;
+			productReference = 181BB7A422A0B05000C3549E /* GMRNetworkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181BB77922A0B04D00C3549E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = LeeSen;
+				TargetAttributes = {
+					181BB78022A0B04D00C3549E = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					181BB79822A0B04F00C3549E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 181BB78022A0B04D00C3549E;
+					};
+					181BB7A322A0B05000C3549E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 181BB78022A0B04D00C3549E;
+					};
+				};
+			};
+			buildConfigurationList = 181BB77C22A0B04D00C3549E /* Build configuration list for PBXProject "GMRNetworkDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181BB77822A0B04D00C3549E;
+			productRefGroup = 181BB78222A0B04D00C3549E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181BB78022A0B04D00C3549E /* GMRNetworkDemo */,
+				181BB79822A0B04F00C3549E /* GMRNetworkDemoTests */,
+				181BB7A322A0B05000C3549E /* GMRNetworkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181BB77F22A0B04D00C3549E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181BB79122A0B04F00C3549E /* LaunchScreen.storyboard in Resources */,
+				181BB78E22A0B04F00C3549E /* Assets.xcassets in Resources */,
+				181BB78C22A0B04D00C3549E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BB79722A0B04F00C3549E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BB7A222A0B05000C3549E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D5A0B3050028D3FB58FD855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMRNetworkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181BB77D22A0B04D00C3549E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181BB78922A0B04D00C3549E /* ViewController.m in Sources */,
+				1847341A22A0C61900283BB2 /* GMRNetworkManager.m in Sources */,
+				1847342022A3A2C500283BB2 /* GMRRequestConfig.m in Sources */,
+				181BB79422A0B04F00C3549E /* main.m in Sources */,
+				1847342322A3B7AB00283BB2 /* GMRCacheManager.m in Sources */,
+				1847341D22A3A2B800283BB2 /* GMRNetworkConfig.m in Sources */,
+				181BB78622A0B04D00C3549E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BB79522A0B04F00C3549E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181BB79E22A0B05000C3549E /* GMRNetworkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BB7A022A0B05000C3549E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181BB7A922A0B05000C3549E /* GMRNetworkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181BB79B22A0B04F00C3549E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181BB78022A0B04D00C3549E /* GMRNetworkDemo */;
+			targetProxy = 181BB79A22A0B04F00C3549E /* PBXContainerItemProxy */;
+		};
+		181BB7A622A0B05000C3549E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181BB78022A0B04D00C3549E /* GMRNetworkDemo */;
+			targetProxy = 181BB7A522A0B05000C3549E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181BB78A22A0B04D00C3549E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181BB78B22A0B04D00C3549E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181BB78F22A0B04F00C3549E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181BB79022A0B04F00C3549E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181BB7AB22A0B05000C3549E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181BB7AC22A0B05000C3549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181BB7AE22A0B05000C3549E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A387D1D0BA0FB3B739F810D4 /* Pods-GMRNetworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GMRNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeSen.GMRNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181BB7AF22A0B05000C3549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223F41C38880C006DF112C91 /* Pods-GMRNetworkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GMRNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeSen.GMRNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		181BB7B122A0B05000C3549E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GMRNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeSen.GMRNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMRNetworkDemo.app/GMRNetworkDemo";
+			};
+			name = Debug;
+		};
+		181BB7B222A0B05000C3549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GMRNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeSen.GMRNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMRNetworkDemo.app/GMRNetworkDemo";
+			};
+			name = Release;
+		};
+		181BB7B422A0B05000C3549E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GMRNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeSen.GMRNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GMRNetworkDemo;
+			};
+			name = Debug;
+		};
+		181BB7B522A0B05000C3549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GMRNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeSen.GMRNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GMRNetworkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181BB77C22A0B04D00C3549E /* Build configuration list for PBXProject "GMRNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181BB7AB22A0B05000C3549E /* Debug */,
+				181BB7AC22A0B05000C3549E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181BB7AD22A0B05000C3549E /* Build configuration list for PBXNativeTarget "GMRNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181BB7AE22A0B05000C3549E /* Debug */,
+				181BB7AF22A0B05000C3549E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181BB7B022A0B05000C3549E /* Build configuration list for PBXNativeTarget "GMRNetworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181BB7B122A0B05000C3549E /* Debug */,
+				181BB7B222A0B05000C3549E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181BB7B322A0B05000C3549E /* Build configuration list for PBXNativeTarget "GMRNetworkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181BB7B422A0B05000C3549E /* Debug */,
+				181BB7B522A0B05000C3549E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181BB77922A0B04D00C3549E /* Project object */;
+}
