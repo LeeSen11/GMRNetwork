@@ -518,7 +518,8 @@
 			baseConfigurationReference = A387D1D0BA0FB3B739F810D4 /* Pods-GMRNetworkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = MD94SDTTY8;
 				INFOPLIST_FILE = GMRNetworkDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -526,8 +527,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LeeSen.GMRNetworkDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newMaxBIM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GhkMaxBim;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -537,7 +539,8 @@
 			baseConfigurationReference = 223F41C38880C006DF112C91 /* Pods-GMRNetworkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = MD94SDTTY8;
 				INFOPLIST_FILE = GMRNetworkDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -545,8 +548,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LeeSen.GMRNetworkDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newMaxBIM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GhkMaxBim;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
